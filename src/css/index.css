@@ -1,0 +1,404 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #363636;
+    font-family: 'Poppins', sans-serif; 
+}
+
+span {
+    color: #6c63ff;
+}
+
+#loading {
+    width: 100%;
+    height: 100vh;
+    background: #363636 url('loading.svg') center;
+    background-repeat: no-repeat;
+}
+
+::selection {
+    color: #363636;
+    background: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+    border-radius: 10px;   
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #363636; 
+    border-radius: 10px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #7871ff; 
+    border-radius: 10px;    
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #574eff; 
+}
+
+#app .mainSection {
+    background-color: #6c63ff; 
+    width: 100%;
+    height: 850px;
+    text-align: center;
+}
+
+#app .mainSection a {
+    text-decoration: none;
+    position: relative;
+    top: -650px;
+    right: 150px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+#app .mainSection h1 {
+    position: relative;
+    top: -580px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    color: white;
+    cursor: default;
+}
+
+#app .mainSection .rocket {
+    width: 730px;
+    height: 730px;
+    position: relative;
+    top: 130px;
+    right: -313px;
+}
+
+#app .mainSection .wave {
+    position: relative;
+    top: -279px;
+}
+
+#app .secondSection {
+    background-color: white; 
+    width: 100%;
+    height: 1400px;
+}
+
+#app .secondSection .whoweare {
+    width: 800px;
+    height: 800px;
+    position: relative;
+    left: 110px;
+}
+
+#app .secondSection .txtBox {
+    background-color: transparent; 
+    width: 600px;
+    height: 400px;
+    position: relative;
+    bottom: 615px;
+    left: 1000px;
+    color: #363636;
+    text-align: center;
+    align-content: center;
+}
+
+#app .secondSection .txtBox h1 {
+    font-size: 64px;
+    color: #6c63ff;
+}
+
+#app .secondSection h2 {
+    font-size: 25px;
+    position: relative;
+    text-align: justify;
+    bottom: 35px;
+}
+
+#app .secondSection .objective {
+    width: 900px;
+    height: 900px;
+    position: relative;
+    bottom: 700px;
+    left: 790px;
+}
+
+#app .secondSection .txtBox2 {
+    background-color: transparent; 
+    width: 600px;
+    height: 400px;
+    position: relative;
+    bottom: 1405px;
+    left: 120px;
+    color: #363636;
+    text-align: center;
+    align-content: center;
+}
+
+#app .secondSection .txtBox2 h1 {
+    font-size: 64px;
+    color: #6c63ff;
+}
+
+#app .secondSection .wave {
+    position: relative;
+    bottom: 1410px;
+}
+
+#app .title {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: white;
+}
+
+#app .card {
+    background-color: #FFFFFF; 
+    width: 740px;
+    height: 300px;
+    position: relative;
+    top: 150px;
+    left: 60px;
+    border-radius: 35px;
+    box-shadow: 10px 10px #6c63ff;
+    text-align: justify;
+}
+
+#app .card img {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    left: 430px;
+}
+
+#app .card h1 {
+    position: relative;
+    bottom: 285px;
+    left: 30px;
+    color: #363636;
+}
+
+#app .card .paragrafo {
+    width: 380px;
+    position: relative;
+    bottom: 290px;
+    left: 30px;
+    color: #363636;
+}
+
+#app .cardtwo {
+    background-color: #FFFFFF; 
+    width: 750px;
+    height: 300px;
+    position: relative;
+    top: -150px;
+    left: 860px;
+    border-radius: 35px;
+    box-shadow: 10px 10px #6c63ff;
+    text-align: justify;
+}
+
+#app .cardtwo img {
+    width: 320px;
+    height: 320px;
+    position: relative;
+    bottom: 12px;
+    left: 420px;
+}
+
+#app .cardtwo h1 {
+    position: relative;
+    bottom: 312px;
+    left: 30px;
+    color: #363636;
+}
+
+#app .cardtwo .paragrafo {
+    width: 380px;
+    position: relative;
+    bottom: 320px;
+    left: 30px;
+    color: #363636;
+}
+
+#app .cardthree {
+    background-color: #FFFFFF; 
+    width: 750px;
+    height: 300px;
+    position: relative;
+    top: -80px;
+    left: 860px;
+    border-radius: 35px;
+    box-shadow: 10px 10px #6c63ff;
+    text-align: justify;
+}
+
+#app .cardthree img {
+    width: 320px;
+    height: 320px;
+    position: relative;
+    bottom: 12px;
+    left: 420px;
+}
+
+#app .cardthree h1 {
+    position: relative;
+    bottom: 312px;
+    left: 30px;
+    color: #363636;
+}
+
+#app .cardthree .paragrafo {
+    width: 380px;
+    position: relative;
+    bottom: 320px;
+    left: 30px;
+    color: #363636;
+}
+
+#app .cardfour {
+    background-color: #FFFFFF; 
+    width: 740px;
+    height: 300px;
+    position: relative;
+    top: -379px;
+    left: 60px;
+    border-radius: 35px;
+    box-shadow: 10px 10px #6c63ff;
+    text-align: justify;
+}
+
+#app .cardfour img {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    left: 430px;
+}
+
+#app .cardfour h1 {
+    position: relative;
+    bottom: 285px;
+    left: 30px;
+    color: #363636;
+}
+
+#app .cardfour .paragrafo {
+    width: 380px;
+    position: relative;
+    bottom: 290px;
+    left: 30px;
+    color: #363636;
+}
+
+#app .cardfive {
+    background-color: #FFFFFF; 
+    width: 740px;
+    height: 330px;
+    position: relative;
+    top: -300px;
+    left: 60px;
+    border-radius: 35px;
+    box-shadow: 10px 10px #6c63ff;
+    text-align: justify;
+}
+
+#app .cardfive img {
+    width: 290px;
+    height: 290px;
+    position: relative;
+    left: 430px;
+}
+
+#app .cardfive h1 {
+    position: relative;
+    bottom: 285px;
+    left: 30px;
+    color: #363636;
+}
+
+#app .cardfive .paragrafo {
+    width: 380px;
+    position: relative;
+    bottom: 290px;
+    left: 30px;
+    color: #363636;
+}
+
+#app .cardsix {
+    background-color: #FFFFFF; 
+    width: 750px;
+    height: 330px;
+    position: relative;
+    top: -630px;
+    left: 860px;
+    border-radius: 35px;
+    box-shadow: 10px 10px #6c63ff;
+    text-align: justify;
+}
+
+#app .cardsix img {
+    width: 320px;
+    height: 320px;
+    position: relative;
+    bottom: 12px;
+    left: 420px;
+}
+
+#app .cardsix h1 {
+    position: relative;
+    bottom: 312px;
+    left: 30px;
+    color: #363636;
+}
+
+#app .cardsix .paragrafo {
+    width: 380px;
+    position: relative;
+    bottom: 320px;
+    left: 30px;
+    color: #363636;
+}
+
+#app footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(120deg, #6c63ff 65%, #363636 0%);
+    margin-top: -500px;
+}
+
+#app footer .disSvg {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 330px;
+    margin-top: -5px;
+}
+
+#app footer .divisor {
+    width: 1000px;
+    height: 10px;
+    background-color: white;
+    margin-top: -85px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+#app footer h1 {
+    font-size: 20px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 230px;
+    color: white;
+}
